@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UITableViewCell-Swipe-for-Options"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A reproduction of the iOS 7 Mail app's swipe-to-reveal options"
 
   s.description  = <<-DESC
@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/samuelmantou/UITableViewCell-Swipe-for-Options.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/samuelmantou/UITableViewCell-Swipe-for-Options.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
