@@ -68,6 +68,6 @@ extern NSString *const TLSwipeForOptionsCellShouldHideMenuNotification;
  
  @discussion The delegate must adopt the `TLSwipeForOptionsCellDelegate` protocol.
  */
-@property (nonatomic, weak) id<TLSwipeForOptionsCellDelegate> delegate;
+@property (nonatomic, assign) id<TLSwipeForOptionsCellDelegate> delegate;
 
 @end

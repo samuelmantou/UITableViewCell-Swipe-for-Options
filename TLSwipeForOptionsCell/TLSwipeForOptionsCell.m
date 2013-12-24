@@ -14,12 +14,12 @@ NSString *const TLSwipeForOptionsCellShouldHideMenuNotification = @"TLSwipeForOp
 
 @interface TLSwipeForOptionsCell () <UIScrollViewDelegate>
 
-@property (nonatomic, weak) UIScrollView *scrollView;
+@property (nonatomic, assign) UIScrollView *scrollView;
 
-@property (nonatomic, weak) UIView *scrollViewContentView;	//The cell content (like the label) goes in this view.
-@property (nonatomic, weak) UIView *scrollViewButtonView;	//Contains our two buttons
+@property (nonatomic, assign) UIView *scrollViewContentView;	//The cell content (like the label) goes in this view.
+@property (nonatomic, assign) UIView *scrollViewButtonView;	//Contains our two buttons
 
-@property (nonatomic, weak) UILabel *scrollViewLabel;
+@property (nonatomic, assign) UILabel *scrollViewLabel;
 
 @property (nonatomic, assign) BOOL isShowingMenu;
 
